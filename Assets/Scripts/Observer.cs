@@ -23,11 +23,8 @@ public class Observer : MonoBehaviour
 
     //! When Player leaves the visibility range of the avatar set the m_IsPlayerInRange flag to false.
     void OnTriggerExit(Collider other)
-    {
-        if (other.transform == m_player)
-        {            
-            m_IsPlayerInRange = false;                     
-        }
+    {         
+       m_IsPlayerInRange = false;
     }
 
     //! Getter ti return the value of m_IsPlayerInRange

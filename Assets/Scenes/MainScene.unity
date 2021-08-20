@@ -227,7 +227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4759721911903040, guid: d6d06c887a1aae94f8c6e8cc2c0c557b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 100
+      value: 100.44
       objectReference: {fileID: 0}
     - target: {fileID: 4759721911903040, guid: d6d06c887a1aae94f8c6e8cc2c0c557b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -582,6 +582,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cfa4aaf5d66c35448d3c3c0682d4975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_player: {fileID: 4759722194635173}
+  m_avatar: {fileID: 1459471856}
 --- !u!4 &1459471856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4759721911903040, guid: d6d06c887a1aae94f8c6e8cc2c0c557b, type: 3}
@@ -601,7 +603,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!1 &1893317986
 GameObject:
@@ -723,7 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c562844d9044c84584df76b04d0be40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 4759722194635173}
+  m_player: {fileID: 4759722194635173}
 --- !u!136 &2017027741
 CapsuleCollider:
   m_ObjectHideFlags: 0
